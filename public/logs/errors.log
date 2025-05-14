@@ -1,0 +1,1 @@
+[2025-05-14 13:58:42] ERROR: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it (Connection: default, SQL: select * from `users`) in D:\herd\php-starter\vendor\illuminate\database\Connection.php on line 822

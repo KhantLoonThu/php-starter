@@ -1,0 +1,27 @@
+{
+  "autoload": {
+    "psr-4": {
+      "Core\\": "core/",
+      "App\\Http\\Controllers\\": "app/Http/Controllers/",
+      "App\\Http\\Middleware\\": "app/Http/Middleware/",
+      "App\\Models\\": "app/Models/",
+      "App\\Services\\": "app/Services/",
+      "App\\Support\\": "app/Support/"
+    }
+  },
+  "require": {
+    "vlucas/phpdotenv": "^5.6",
+    "bramus/router": "^1.6",
+    "illuminate/database": "^12.14",
+    "illuminate/events": "^12.14"
+  },
+  "scripts": {
+    "start": [
+      "php -S localhost:8000 -t public"
+    ]
+  },
+  "config": {
+    "preferred-install": "dist",
+    "optimize-autoloader": true
+  }
+}
